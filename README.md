@@ -1,4 +1,4 @@
-# OpenGL Workspace for macOS
+# OpenGL Portable Workspace for macOS
 
 A ready-to-use C++ OpenGL and GLUT workspace for macOS. It supports Apple Silicon (M1, M2, M3, M4, and later) and Intel Macs by using Apple Clang and the OpenGL/GLUT frameworks included with the macOS development tools.
 
