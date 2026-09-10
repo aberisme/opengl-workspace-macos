@@ -37,7 +37,7 @@ uname -m
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/opengl-workspace-macos.git
+git clone https://github.com/aberisme/opengl-workspace-macos.git
 cd opengl-workspace-macos
 code .
 ```
