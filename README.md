@@ -30,8 +30,7 @@ Optional: check the processor architecture:
 uname -m
 ```
 
-`arm64` means Apple Silicon; `x86_64` means Intel.
-
+`arm64` means Apple Silicon; `x86_64` means Intel. Update `intelliSenseMode` in the `c_cpp_properties.json` to `macos-clang-x64` for Inten Macs.
 ## Get the workspace
 
 Clone the repository:
@@ -80,10 +79,17 @@ Use this conditional header to keep the same source code compatible with macOS a
 
 ```cpp
 #ifdef __APPLE__
+
 #define GL_SILENCE_DEPRECATION
+#include <OpenGL/gl.h> // added for GLEW
+#include <OpenGL/glext.h> // added for GLEW
 #include <GLUT/glut.h>
+
 #else
-#include <GL/glut.h>
+
+#include <GL/glew.h>
+#include <GL/freeglut.h>
+
 #endif
 ```
 
