@@ -30,7 +30,7 @@ Optional: check the processor architecture:
 uname -m
 ```
 
-`arm64` means Apple Silicon; `x86_64` means Intel. Update `intelliSenseMode` in the `c_cpp_properties.json` to `macos-clang-x64` for Inten Macs.
+`arm64` means Apple Silicon; `x86_64` means Intel. Update `intelliSenseMode` in the `c_cpp_properties.json` to `macos-clang-x64` for Intel Macs.
 ## Get the workspace
 
 Clone the repository:
